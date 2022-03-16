@@ -3,6 +3,7 @@ package com.java.tests.api_tests.reqresin_api;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.java.tests.api_tests.BaseTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +15,7 @@ import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 
-public class CreateUserTest {
+public class CreateUserTest extends BaseTest {
 
     @Test
     @DisplayName("user creation check")
